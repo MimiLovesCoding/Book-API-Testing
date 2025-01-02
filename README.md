@@ -18,6 +18,7 @@ Checks the status of the API with 200 OK being the goal
 <h2>GET API Books</h2><br>
 <br>
 https://simple-books-api.glitch.me/books
+<br>
 Returns the complete list of books
 
 ﻿<hr>
