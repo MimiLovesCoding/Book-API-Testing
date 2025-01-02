@@ -16,7 +16,7 @@
 				"method": "GET",
 				"header": [],
 				"url": "{{BaseBookURL}}/status",
-				"description": "Checks the status of the API with 200 being goal"
+				"description": "Checks the status of the API with 200 OK being goal"
 			},
 			"response": []
 		},
@@ -74,7 +74,8 @@
 						}
 					}
 				},
-				"url": "{{BaseBookURL}}/orders"
+				"url": "{{BaseBookURL}}/orders",
+				"description": "Submit a new order after obtaining authentication"
 			},
 			"response": []
 		},
@@ -117,7 +118,8 @@
 							"value": "aUxpaxbfouxdKwwOxvs8K"
 						}
 					]
-				}
+				},
+				"description": "View existing order after obtaining authentication"
 			},
 			"response": []
 		},
