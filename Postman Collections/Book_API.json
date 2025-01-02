@@ -1,0 +1,257 @@
+{
+	"info": {
+		"_postman_id": "9ac994f5-1945-4aa5-8217-b604b9b45773",
+		"name": "Book API",
+		"description": "Series of API request on the Book API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API Status",
+			"id": "60839c34-5082-4a1d-b690-be43180fe005",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{BaseBookURL}}/status"
+			},
+			"response": []
+		},
+		{
+			"name": "API Books",
+			"id": "f3468734-05f2-4fab-874a-2a9933d2c4a0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseBookURL}}/books",
+					"host": [
+						"{{BaseBookURL}}"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "non-fiction",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order",
+			"id": "e7f27df6-e955-4c09-8f0f-c76c6283546f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "{{accessToken}}"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"bookId\": 1,\n  \"customerName\": \"Carrie Bradshaw\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{BaseBookURL}}/orders"
+			},
+			"response": []
+		},
+		{
+			"name": "Orders/:orderId",
+			"id": "55c56325-fa31-471d-9492-4a9e65dd725c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "{{accessToken}}"
+					}
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseBookURL}}/orders/:orderid",
+					"host": [
+						"{{BaseBookURL}}"
+					],
+					"path": [
+						"orders",
+						":orderid"
+					],
+					"variable": [
+						{
+							"key": "orderid",
+							"value": "aUxpaxbfouxdKwwOxvs8K"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New OrderID",
+			"id": "48d14632-0788-459d-abe7-89f70dc8e7b9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "{{accessToken}}"
+					}
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"bookId\": 1,\n    \"customerName\": \"Dr. Frankenstein\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseBookURL}}/orders/:orderid",
+					"host": [
+						"{{BaseBookURL}}"
+					],
+					"path": [
+						"orders",
+						":orderid"
+					],
+					"variable": [
+						{
+							"key": "orderid",
+							"value": "aUxpaxbfouxdKwwOxvs8K"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Book id",
+			"id": "7df8ba9f-c467-45ee-b1e1-3acba94f7240",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseBookURL}}/books/:bookId",
+					"host": [
+						"{{BaseBookURL}}"
+					],
+					"path": [
+						"books",
+						":bookId"
+					],
+					"variable": [
+						{
+							"key": "bookId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register API Client",
+			"id": "53f3e817-cca1-4df6-bc5e-6f1800f74604",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "{{accessToken}}"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"clientName\": \"Rimoni Soprano\",\n   \"clientEmail\": \"rimomi2784@matmayer.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{BaseBookURL}}/api-clients"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "59ad87e8-cd1a-4701-b58a-1cb3ac089892",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "ae844ca6-0499-40bd-abc7-d2108e1043fb",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BaseBookURL",
+			"value": "https://simple-books-api.glitch.me"
+		},
+		{
+			"key": "accessToken",
+			"value": "https://simple-books-api.glitch.me",
+			"type": "string"
+		}
+	]
+}
