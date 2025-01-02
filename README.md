@@ -23,5 +23,15 @@ Returns the complete list of books
 
 ﻿<hr>
 
+<h2>Query Params</h2>
+types:     non-fiction    fiction
+<br>
+<h2>POST Order</h2>
+<br>
+https://simple-books-api.glitch.me/orders
+<br>
+Submit a new order after obtaining authentication
+
+﻿
 
 
