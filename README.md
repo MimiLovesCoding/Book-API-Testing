@@ -6,9 +6,10 @@ Series of API requests on the Book API
 
 ﻿
 
-<h1>GET API Status</h1><br>
+<h2>GET API Status</h2><br>
 <br>
 https://simple-books-api.glitch.me/status
+<br>
 Checks the status of the API with 200 OK being goal
 
 ﻿
