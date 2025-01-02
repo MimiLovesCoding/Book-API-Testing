@@ -162,7 +162,8 @@
 							"value": "aUxpaxbfouxdKwwOxvs8K"
 						}
 					]
-				}
+				},
+				"description": "Using the JSON formate dev updates properties"
 			},
 			"response": []
 		},
@@ -218,7 +219,8 @@
 						}
 					}
 				},
-				"url": "{{BaseBookURL}}/api-clients"
+				"url": "{{BaseBookURL}}/api-clients",
+				"description": "Dev generates access token in JSON formatted request body"
 			},
 			"response": []
 		}
