@@ -15,7 +15,8 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "{{BaseBookURL}}/status"
+				"url": "{{BaseBookURL}}/status",
+				"description": "Checks the overall status of the API"
 			},
 			"response": []
 		},
