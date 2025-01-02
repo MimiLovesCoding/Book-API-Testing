@@ -39,6 +39,8 @@ Submit a new order after obtaining authentication
 <br>
 
 ![image](https://github.com/user-attachments/assets/8e2bfa75-0685-4137-a5d3-14a0b96d89de)
+<br>
+<hr>
 
 
 ﻿
