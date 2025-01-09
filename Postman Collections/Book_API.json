@@ -51,6 +51,36 @@
 			"response": []
 		},
 		{
+			"name": "GET a single book",
+			"id": "45324cf3-dd42-4e97-96b8-351802af27c2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseBookURL}}/books",
+					"host": [
+						"{{BaseBookURL}}"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "non-fiction",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Returns the complete list of books"
+			},
+			"response": []
+		},
+		{
 			"name": "Order",
 			"id": "e7f27df6-e955-4c09-8f0f-c76c6283546f",
 			"protocolProfileBehavior": {
