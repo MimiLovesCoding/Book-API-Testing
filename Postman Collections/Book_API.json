@@ -51,7 +51,7 @@
 			"response": []
 		},
 		{
-			"name": "GET a single book",
+			"name": "GET fiction book",
 			"id": "45324cf3-dd42-4e97-96b8-351802af27c2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -60,7 +60,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{BaseBookURL}}/books",
+					"raw": "{{BaseBookURL}}/books?type=fiction",
 					"host": [
 						"{{BaseBookURL}}"
 					],
@@ -70,9 +70,8 @@
 					"query": [
 						{
 							"key": "type",
-							"value": "non-fiction",
-							"type": "text",
-							"disabled": true
+							"value": "fiction",
+							"type": "text"
 						}
 					]
 				},
@@ -206,6 +205,15 @@
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "{{BaseBookURL}}/books/:bookId",
 					"host": [
