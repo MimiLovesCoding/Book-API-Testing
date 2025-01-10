@@ -1,0 +1,9 @@
+{
+"id":2,
+"name":"Just as I Am",
+"author":"Cicely Tyson",
+"type":"non-fiction",
+"price":20.33,
+"current-stock":0,
+"available":false
+}
