@@ -1,0 +1,14 @@
+{
+    "status": "OK"
+}
+
+
+//JAVASCRIPT TEST
+pm.test("Response status code is 200", function () {
+    pm.expect(pm.response.code).to.equal(200);
+});
+
+const response = pm.response.json();
+
+console.log(response.status);
+console.log(response['status']);
