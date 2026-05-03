@@ -9,6 +9,14 @@ This project validates the functionality, reliability, and error handling of the
 The Postman Collection is included in this repository and can be imported directly to replicate all test cases.
 ﻿<hr>
 
+### 🛠 Tools & Technologies
+| Tool |  Purpose |
+| --- | --- |
+| Postman | API client for building, executing, and documenting requests |
+| Simple Books API | Third-party REST API for managing book and order data |
+| JSON | Response format validated across all test cases |
+
+
 <h2>GET API Status</h2><br>
 <br>
 https://simple-books-api.glitch.me/status
