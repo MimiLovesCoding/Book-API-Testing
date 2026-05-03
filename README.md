@@ -69,6 +69,27 @@ Each response was checked for:<br>
 📌 Accurate JSON response structure and required fields<br>
 📌 Proper authentication enforcement on protected endpoints<br>
 
+<hr>
+
+### 🔍 Test Scenarios Covered
+| Scenario Type | Description| 
+| --- | --- |
+|✅ GET /status| Returns 200 OK confirming API is running|
+|✅ GET /books |Returns full list of available books|
+|✅ GET /books?type=fiction |Returns filtered fiction books only|
+|✅ GET /books?type=non-fiction |Returns filtered non-fiction books only|
+|✅ GET /books/{id} |Returns single book by valid ID|
+|✅ POST /api-clients |Returns access token for valid registration|
+|✅ POST /orders |Creates order successfully with valid token|
+|✅ GET /orders |Returns all orders for authenticated user|
+|✅ PATCH /orders/{id} |Updates order details successfully|
+|✅ DELETE /orders/{id} |Deletes order and confirms removal|
+|❌ POST /orders (no token) |Returns 401 Unauthorized|
+|❌ GET /books/{invalid id}  |Returns 404 Not Found|
+|❌ POST /api-clients (duplicate email) |Returns 409 Conflict|
+<hr>
+
+
 <h2>GET API Status</h2><br>
 <br>
 https://simple-books-api.glitch.me/status
