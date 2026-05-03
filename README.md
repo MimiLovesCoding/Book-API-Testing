@@ -168,8 +168,21 @@ Submit a new order after obtaining authentication
 ## 📁 Repository Contents
 |File / Folder |Description |
 | --- | ---|
-|Postman Collections/ |Exportable Postman collection containing all API requests
-|README.md |Project documentation
+|Postman Collections/ |Exportable Postman collection containing all API requests<br>
+|README.md |Project documentation<br>
+<hr>
+
+## ▶️ How to Run This Test Suite
+
+1. Clone or download this repository<br>
+2. Open Postman<br>
+3. Click Import → select the collection file from the Postman Collections/ folder<br>
+4. Create a Postman environment and add a variable named ACCESS_TOKEN<br>
+5. Run the POST /api-clients request first to generate your token, then paste it into the environment variable<br>
+6. Run individual requests or use Collection Runner to execute the full suite<br>
+7. Verify responses match the expected status codes and JSON structure above<br>
+<hr>
+
 
 ﻿
 
