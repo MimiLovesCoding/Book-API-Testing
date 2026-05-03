@@ -102,7 +102,34 @@ Checks the status of the API with 200 OK being the goal
 <br>
 https://simple-books-api.glitch.me/books
 <br>
-Returns the complete list of books
+Returns the complete list of books<br>
+
+```json
+{
+"id": 1,
+"name": "The Russian",
+"type": "fiction",
+"available": true
+},
+{
+"id": 3,
+"name": "The Vanishing Half",
+"type": "fiction",
+"available": true
+},
+{
+"id": 4,
+"name": "The Midnight Library",
+"type": "fiction",
+"available": true
+},
+{
+"id": 6,
+"name": "Viscount Who Loved Me",
+"type": "fiction",
+"available": true
+},
+```
 
 ﻿<hr>
 
