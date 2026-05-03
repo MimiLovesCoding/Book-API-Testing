@@ -22,7 +22,21 @@ The Postman Collection is included in this repository and can be imported direct
 Base URL
 [https://simple-books-api.glitch.me](https://simple-books-api.glitch.me)
 
+<hr>
 
+### 📌 Endpoint Summary
+| Method |  Endpoint | Purpose |
+| --- | --- |--- |
+|GET | /status | Check API availability |
+|GET  |/books  |Retrieve full list of books|
+|GET |/books?type=fiction | Filter books by fiction type |
+|GET |/books?type=non-fiction |Filter books by non-fiction type |
+|GET |/books/{bookId}| Retrieve a single book by ID |
+|POST |/api-clients |Register an API client to obtain access token |
+|POST | /orders| Submit a new book order (requires authentication)|
+|GET | /orders | Retrieve all orders (requires authentication) |
+|PATCH | /orders/{orderId} | Update an existing order |
+|DELETE |/orders/{orderId}| Delete an order |
 
 <h2>GET API Status</h2><br>
 <br>
