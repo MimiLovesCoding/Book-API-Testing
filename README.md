@@ -38,6 +38,9 @@ Base URL
 |PATCH | /orders/{orderId} | Update an existing order |
 |DELETE |/orders/{orderId}| Delete an order |
 
+<hr>
+
+
 <h2>GET API Status</h2><br>
 <br>
 https://simple-books-api.glitch.me/status
