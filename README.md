@@ -56,6 +56,19 @@ The API requires an access token for order-related endpoints. To obtain a token:
 4. Include it in the Authorization header for all order requests
 <hr>
 
+### 🧪 Testing Approach<br>
+#### Functional Testing (Positive Cases)<br>
+📌 Verified that valid requests return correct HTTP status codes, accurate data, and properly structured JSON responses.<br>
+
+#### Negative & Edge Case Testing<br>
+📌 Submitted unauthorized, malformed, and invalid requests to confirm the API handles failures gracefully with appropriate error responses.<br>
+
+#### Response Validation<br>
+Each response was checked for:<br>
+📌 Correct HTTP status codes (200 OK, 201 Created, 401 Unauthorized, 404 Not Found)<br>
+📌 Accurate JSON response structure and required fields<br>
+📌 Proper authentication enforcement on protected endpoints<br>
+
 <h2>GET API Status</h2><br>
 <br>
 https://simple-books-api.glitch.me/status
