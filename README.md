@@ -94,7 +94,14 @@ Each response was checked for:<br>
 <br>
 https://simple-books-api.glitch.me/status
 <br>
-Checks the status of the API with 200 OK being the goal
+Checks the status of the API with 200 OK being the goal<BR>
+
+```JSON
+{
+  "status": "OK"
+}
+
+```
 
 ﻿<hr>
  
