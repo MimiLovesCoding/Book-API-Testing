@@ -145,10 +145,16 @@ types:     non-fiction or fiction
 <br>
 <h2>POST Order</h2>
 <br>
-https://simple-books-api.glitch.me/orders
+https://simple-books-api.glitch.me/orders<br>
 <br>
 
-<br>
+```JSON
+{
+  "created": true,
+  "orderId": "PF6MflJovlMETBo"
+}
+```
+
 <br>
 Submit a new order after obtaining authentication
 <br>
