@@ -16,6 +16,13 @@ The Postman Collection is included in this repository and can be imported direct
 | Simple Books API | Third-party REST API for managing book and order data |
 | JSON | Response format validated across all test cases |
 
+<hr>
+
+### 📡 API Endpoints Tested
+Base URL
+[https://simple-books-api.glitch.me](https://simple-books-api.glitch.me)
+
+
 
 <h2>GET API Status</h2><br>
 <br>
