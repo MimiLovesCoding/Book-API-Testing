@@ -43,7 +43,7 @@ Base URL
 🔐 Authentication
 The API requires an access token for order-related endpoints. To obtain a token:
 
-Send a POST request to /api-clients with the following JSON body:
+1. Send a POST request to /api-clients with the following JSON body:
 ```json
 
 {
@@ -51,7 +51,10 @@ Send a POST request to /api-clients with the following JSON body:
   "clientEmail": "JaneDoer@email.com"
 }
 ```
-
+2. Copy the accessToken from the response
+3. Store it as a Postman environment variable {{ACCESS_TOKEN}}
+4. Include it in the Authorization header for all order requests
+<hr>
 
 <h2>GET API Status</h2><br>
 <br>
