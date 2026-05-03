@@ -40,6 +40,18 @@ Base URL
 
 <hr>
 
+🔐 Authentication
+The API requires an access token for order-related endpoints. To obtain a token:
+
+Send a POST request to /api-clients with the following JSON body:
+```json
+
+{
+  "clientName": "Jane Doe",
+  "clientEmail": "JaneDoer@email.com"
+}
+```
+
 
 <h2>GET API Status</h2><br>
 <br>
