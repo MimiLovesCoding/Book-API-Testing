@@ -92,7 +92,7 @@ Each response was checked for:<br>
 
 <h2>📗 GET API Status</h2><br>
 <br> 
-Checks the status of the API with 200 OK being the goal<BR>
+🔄 Checks the status of the API with 200 OK being the goal<BR>
 
 ```JSON
 {
@@ -103,7 +103,7 @@ Checks the status of the API with 200 OK being the goal<BR>
 ﻿<hr>
 <h2>📓 GET API Books</h2><br>
 <br>
-Returns the complete list of books<br>
+↪️ Returns the complete list of books<br>
 
 ```json
 {
@@ -134,7 +134,7 @@ Returns the complete list of books<br>
 
 ﻿<hr>
 <h2> 📐 Query Params</h2>
-types:     non-fiction or fiction
+🎭 types:     non-fiction or fiction
 <br>
 <h2> 📒 POST Order</h2>
 <br>
@@ -147,7 +147,7 @@ types:     non-fiction or fiction
 ```
 
 <br>
-Submit a new order after obtaining authentication
+↘️ Submit a new order after obtaining authentication
 <br>
 <h3>Result</h3>
 <br>
