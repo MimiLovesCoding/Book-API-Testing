@@ -183,6 +183,14 @@ Submit a new order after obtaining authentication
 7. Verify responses match the expected status codes and JSON structure above<br>
 <hr>
 
+## 📚 Key Takeaways<br>
+
+🎯 Gained hands-on experience testing a full REST API lifecycle — from status checks and data retrieval through authenticated order management<br>
+🎯 Strengthened understanding of token-based authentication and how to handle Bearer tokens securely using Postman environment variables<br>
+🎯 Practiced designing test cases that cover both happy path and failure scenarios, reinforcing that negative testing is as critical as positive validation<br>
+🎯 Learned the importance of testing all HTTP methods (GET, POST, PATCH, DELETE) to ensure complete CRUD coverage rather than focusing on retrieval alone<br>
+🎯 Reinforced best practices around credential security — never exposing access tokens or API keys in public repositories<br>
+🎯 Improved ability to read, interpret, and validate JSON response structures against expected API behavior<br>
 
 ﻿
 
