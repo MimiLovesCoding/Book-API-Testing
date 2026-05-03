@@ -91,9 +91,7 @@ Each response was checked for:<br>
 
 
 <h2>📗 GET API Status</h2><br>
-<br>
-https://simple-books-api.glitch.me/status
-<br>
+<br> 
 Checks the status of the API with 200 OK being the goal<BR>
 
 ```JSON
@@ -102,12 +100,8 @@ Checks the status of the API with 200 OK being the goal<BR>
 }
 
 ```
-
 ﻿<hr>
- 
 <h2>📓 GET API Books</h2><br>
-<br>
-https://simple-books-api.glitch.me/books
 <br>
 Returns the complete list of books<br>
 
@@ -139,13 +133,10 @@ Returns the complete list of books<br>
 ```
 
 ﻿<hr>
-
 <h2> 📐 Query Params</h2>
 types:     non-fiction or fiction
 <br>
 <h2> 📒 POST Order</h2>
-<br>
-https://simple-books-api.glitch.me/orders<br>
 <br>
 
 ```JSON
@@ -185,11 +176,11 @@ Submit a new order after obtaining authentication
 
 ## 📚 Key Takeaways<br>
 
-🎯 Gained hands-on experience testing a full REST API lifecycle — from status checks and data retrieval through authenticated order management<br>
+🎯 Gained hands-on experience testing a full REST API lifecycle, from status checks and data retrieval through authenticated order management<br>
 🎯 Strengthened understanding of token-based authentication and how to handle Bearer tokens securely using Postman environment variables<br>
 🎯 Practiced designing test cases that cover both happy path and failure scenarios, reinforcing that negative testing is as critical as positive validation<br>
 🎯 Learned the importance of testing all HTTP methods (GET, POST, PATCH, DELETE) to ensure complete CRUD coverage rather than focusing on retrieval alone<br>
-🎯 Reinforced best practices around credential security — never exposing access tokens or API keys in public repositories<br>
+🎯 Reinforced best practices around credential security; never exposing access tokens or API keys in public repositories<br>
 🎯 Improved ability to read, interpret, and validate JSON response structures against expected API behavior<br>
 
 ﻿
