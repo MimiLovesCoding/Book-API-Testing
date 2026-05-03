@@ -30,7 +30,7 @@ types:     non-fiction or fiction
 <br>
 https://simple-books-api.glitch.me/orders
 <br>
-Access token:  73a4b6c03fc057ef8ba8005fd5c4f6f8a9c471c4a781633d5770452219776b7d
+
 <br>
 <br>
 Submit a new order after obtaining authentication
