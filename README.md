@@ -165,6 +165,11 @@ Submit a new order after obtaining authentication
 <br>
 <hr>
 
+## 📁 Repository Contents
+|File / Folder |Description |
+| --- | ---|
+|Postman Collections/ |Exportable Postman collection containing all API requests
+|README.md |Project documentation
 
 ﻿
 
