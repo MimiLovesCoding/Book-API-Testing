@@ -12,7 +12,7 @@ The Postman Collection is included in this repository and can be imported direct
 ### 🛠 Tools & Technologies
 | Tool |  Purpose |
 | --- | --- |
-| Postman | API client for building, executing, and documenting requests |
+| [ Postman](https://postman.com)  | API client for building, executing, and documenting requests |
 | Simple Books API | Third-party REST API for managing book and order data |
 | JSON | Response format validated across all test cases |
 
