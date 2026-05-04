@@ -1,5 +1,5 @@
 ## 📚 Book API ➖ Comprehensive API Test Suite<br>
-A full-cycle API testing project using Postman to validate the Simple Books API, covering API status checks, book retrieval, filtering, authentication, and order management<br>
+A full-cycle API testing project using Postman to validate the Simple Books API, covering API status checks, book retrieval, filtering, authentication, and order management
 through structured GET and POST requests.<br>
 
 🔐 Access tokens and authentication credentials have been omitted from all documentation for security purposes.<br>
