@@ -41,7 +41,7 @@ Base URL
 
 <hr>
 
-🔐 Authentication
+###🔐 Authentication
 The API requires an access token for order-related endpoints. To obtain a token:
 
 1. Send a POST request to /api-clients with the following JSON body:
