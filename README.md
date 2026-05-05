@@ -49,8 +49,8 @@ The API requires an access token for order-related endpoints. To obtain a token:
 ```json
 
 {
-  "clientName": "Jane Doe",
-  "clientEmail": "JaneDoer@email.com"
+  "clientName": "William Shakespeare",
+  "clientEmail": "William_Shakespeare@email.com"
 }
 ```
 2. Copy the accessToken from the response
